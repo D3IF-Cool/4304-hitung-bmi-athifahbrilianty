@@ -25,7 +25,6 @@ class HitungFragment : Fragment()  {
             layoutInflater, container, false)
 
         binding.button.setOnClickListener { hitungBmi() }
-        binding.reset.setOnClickListener { reset() }
 
         binding.saranButton.setOnClickListener { view: View ->
             view.findNavController().navigate(
@@ -124,14 +123,5 @@ class HitungFragment : Fragment()  {
             KategoriBmi.GEMUK -> R.string.gemuk
         }
         return getString(stringRes)
-    }
-
-    private fun reset() {
-        binding.beratEditText.setText("")
-        binding.tinggiEditText.setText("")
-        binding.bmiTextView.setText("")
-        binding.kategoriTextView.setText("")
-        binding.radioGroup.clearCheck()
-        Toast.makeText(context, R.string.text_reset, Toast.LENGTH_LONG).show()
     }
 }
