@@ -18,10 +18,6 @@ class HitungViewModel(private val db : BmiDao) : ViewModel() {
     // Hasil BMI bisa null jika pengguna belum menghitung BMI
     private val hasilBmi = MutableLiveData<HasilBmi?>()
 
-    // Variabel ini sudah berupa LiveData (tidak mutable),
-    // sehingga tidak perlu dijadikan private
-    val data = db.getLastBmi()
-
     // Navigasi akan bernilai null ketika tidak bernavigasi
     private val navigasi = MutableLiveData<KategoriBmi?>()
 
