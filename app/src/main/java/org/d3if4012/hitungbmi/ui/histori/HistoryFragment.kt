@@ -1,4 +1,4 @@
-package org.d3if4012.hitungbmi.ui
+package org.d3if4012.hitungbmi.ui.histori
 
 import android.os.Bundle
 import android.view.LayoutInflater

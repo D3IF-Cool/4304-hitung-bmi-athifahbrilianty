@@ -35,7 +35,7 @@
         android:label="@string/tentang_aplikasi"/>
     <fragment
         android:id="@+id/historyFragment"
-        android:name="org.d3if4012.hitungbmi.ui.HistoryFragment"
+        android:name="org.d3if4012.hitungbmi.ui.histori.HistoryFragment"
         android:label="@string/history"
         tools:layout="@layout/fragment_history"/>
 
