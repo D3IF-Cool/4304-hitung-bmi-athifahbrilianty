@@ -23,7 +23,7 @@ menentukan apakah berat badanmu ideal atau tidak. Cobalah sekarang!</string>
 
     <string name="text_reset">Berhasil direset</string>
 
-    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="horizontal_margin">20dp</dimen>
 
     <string name="judul_kurus">Mengatasi Kekurusan</string>
     <string name="judul_ideal">Menjaga Tetap Ideal</string>
